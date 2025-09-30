@@ -90,5 +90,5 @@ function rp_shortcode_recherche_taxonomies()
 
     return ob_get_clean();
 }
-add_shortcode('recherche_taxonomies', 'rp_shortcode_recherche_taxonomies');
+ add_shortcode('recherche_taxonomies', 'rp_shortcode_recherche_taxonomies');
 
