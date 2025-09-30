@@ -1,25 +1,25 @@
-# fly.toml app configuration file generated for sql-empty-wildflower-2926 on 2025-09-30T16:21:44+02:00
+# fly.toml app configuration file generated for wp-mysql-little-sound-540 on 2025-09-30T17:30:13+02:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'sql-empty-wildflower-2926'
+app = 'wp-mysql-little-sound-540'
 primary_region = 'cdg'
 
 [build]
-  image = 'mysql:8.0.37'
-
-[env]
-  MYSQL_DB_USER = 'mlvoe'
-  MYSQL_PASSWORD = 'mlvoe@95'
-  MYSQL_ROOT_PASSWORD = 'mlvoe@95'
-  MYSQL_USER = 'mlvoe@95'
-  WORDPRESS_DB_HOST = 'mysqldata.internal'
-  WORDPRESS_DB_NAME = 'mysqldata'
+  image = 'mariadb'
 
 [[mounts]]
   source = 'mysqldata'
-  destination = '/data'
+  destination = '/var/lib/mysql'
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = 'stop'
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
 
 [[vm]]
   memory = '1gb'
