@@ -1,0 +1,27 @@
+# fly.toml app configuration file generated for sql-empty-wildflower-2926 on 2025-09-30T16:21:44+02:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'sql-empty-wildflower-2926'
+primary_region = 'cdg'
+
+[build]
+  image = 'mysql:8.0.37'
+
+[env]
+  MYSQL_DB_USER = 'mlvoe'
+  MYSQL_PASSWORD = 'mlvoe@95'
+  MYSQL_ROOT_PASSWORD = 'mlvoe@95'
+  MYSQL_USER = 'mlvoe@95'
+  WORDPRESS_DB_HOST = 'mysqldata.internal'
+  WORDPRESS_DB_NAME = 'mysqldata'
+
+[[mounts]]
+  source = 'mysqldata'
+  destination = '/data'
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1

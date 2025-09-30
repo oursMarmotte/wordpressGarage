@@ -1,96 +1,12 @@
-# flyctl launch added from public\wp-content\plugins\nouveauPlugin\.gitignore
-# Logs
-public\wp-content\plugins\nouveauPlugin\**\logs
-public\wp-content\plugins\nouveauPlugin\**\*.log
-public\wp-content\plugins\nouveauPlugin\**\npm-debug.log*
-public\wp-content\plugins\nouveauPlugin\**\yarn-debug.log*
-public\wp-content\plugins\nouveauPlugin\**\yarn-error.log*
-
-# Coverage directory used by tools like istanbul
-public\wp-content\plugins\nouveauPlugin\**\coverage
-
-# Compiled binary addons (https://nodejs.org/api/addons.html)
-public\wp-content\plugins\nouveauPlugin\**\build\Release
-
-# Dependency directories
-public\wp-content\plugins\nouveauPlugin\**\node_modules
-
-# Optional npm cache directory
-public\wp-content\plugins\nouveauPlugin\**\.npm
-
-# Optional eslint cache
-public\wp-content\plugins\nouveauPlugin\**\.eslintcache
-
-# Output of `npm pack`
-public\wp-content\plugins\nouveauPlugin\**\*.tgz
-
-# Output of `wp-scripts plugin-zip`
-public\wp-content\plugins\nouveauPlugin\**\*.zip
-
-# dotenv environment variables file
-public\wp-content\plugins\nouveauPlugin\**\.env
-
-# flyctl launch added from public\wp-content\plugins\our-plugin-garageOise\.gitignore
-# Logs
-public\wp-content\plugins\our-plugin-garageOise\**\logs
-public\wp-content\plugins\our-plugin-garageOise\**\*.log
-public\wp-content\plugins\our-plugin-garageOise\**\npm-debug.log*
-public\wp-content\plugins\our-plugin-garageOise\**\yarn-debug.log*
-public\wp-content\plugins\our-plugin-garageOise\**\yarn-error.log*
-
-# Coverage directory used by tools like istanbul
-public\wp-content\plugins\our-plugin-garageOise\**\coverage
-
-# Compiled binary addons (https://nodejs.org/api/addons.html)
-public\wp-content\plugins\our-plugin-garageOise\**\build\Release
-
-# Dependency directories
-public\wp-content\plugins\our-plugin-garageOise\**\node_modules
-
-# Optional npm cache directory
-public\wp-content\plugins\our-plugin-garageOise\**\.npm
-
-# Optional eslint cache
-public\wp-content\plugins\our-plugin-garageOise\**\.eslintcache
-
-# Output of `npm pack`
-public\wp-content\plugins\our-plugin-garageOise\**\*.tgz
-
-# Output of `wp-scripts plugin-zip`
-public\wp-content\plugins\our-plugin-garageOise\**\*.zip
-
-# dotenv environment variables file
-public\wp-content\plugins\our-plugin-garageOise\**\.env
-
-# flyctl launch added from public\wp-content\themes\jg-theme-wordpress\.gitignore
-# Logs
-public\wp-content\themes\jg-theme-wordpress\**\logs
-public\wp-content\themes\jg-theme-wordpress\**\*.log
-public\wp-content\themes\jg-theme-wordpress\**\npm-debug.log*
-public\wp-content\themes\jg-theme-wordpress\**\yarn-debug.log*
-public\wp-content\themes\jg-theme-wordpress\**\yarn-error.log*
-
-# Coverage directory used by tools like istanbul
-public\wp-content\themes\jg-theme-wordpress\**\coverage
-
-# Compiled binary addons (https://nodejs.org/api/addons.html)
-public\wp-content\themes\jg-theme-wordpress\**\build\Release
-
-# Dependency directories
-public\wp-content\themes\jg-theme-wordpress\**\node_modules
-
-# Optional npm cache directory
-public\wp-content\themes\jg-theme-wordpress\**\.npm
-
-# Optional eslint cache
-public\wp-content\themes\jg-theme-wordpress\**\.eslintcache
-
-# Output of `npm pack`
-public\wp-content\themes\jg-theme-wordpress\**\*.tgz
-
-# Output of `wp-scripts plugin-zip`
-public\wp-content\themes\jg-theme-wordpress\**\*.zip
-
-# dotenv environment variables file
-public\wp-content\themes\jg-theme-wordpress\**\.env
-fly.toml
+.git
+.gitignore
+.env
+.DS_Store
+node_modules
+*.log
+*.sql
+README.md
+wordpress/wp-content/cache/*
+wordpress/wp-content/uploads/cache/*
+wordpress/.htaccess.bak
+wordpress/wp-config-sample.php
