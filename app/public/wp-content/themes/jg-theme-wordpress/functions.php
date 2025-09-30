@@ -106,3 +106,45 @@ function hotelblocks_blockone_block_init() {
 	}
 }
 add_action( 'init', 'hotelblocks_blockone_block_init' );
+
+
+
+
+function mes_sidebars() {
+    register_sidebar(array(
+        'name' => 'Sidebar Articles',
+        'id'   => 'sidebar-posts',
+    ));
+    
+    register_sidebar(array(
+        'name' => 'Sidebar Pages',
+        'id'   => 'sidebar-pages',
+    ));
+    
+    register_sidebar(array(
+        'name' => 'Sidebar Page Spécifique',
+        'id'   => 'sidebar-unique',
+    ));
+}
+add_action('widgets_init', 'mes_sidebars');
+
+// Afficher la bonne sidebar
+function ma_sidebar() {
+    // Page unique (changez 'contact' par votre slug de page)
+    if (is_page('nos-occasions')) {
+dynamic_sidebar('sidebar-unique');
+
+        echo '<div class="mon-shortcode-wrapper">';
+echo do_shortcode('[recherche_taxonomies]');
+echo '</div>';
+
+    }
+    // Articles
+    elseif (is_single()) {
+        dynamic_sidebar('sidebar-posts');
+    }
+    // Toutes les pages
+    elseif (is_page()) {
+        dynamic_sidebar('sidebar-pages');
+    }
+}
