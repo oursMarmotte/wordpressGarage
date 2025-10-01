@@ -18,14 +18,10 @@ primary_region = 'cdg'
   processes = ['app']
 
 [env]
-WORDPRESS_DB_HOST ="wp-mysql-little-sound-540.internal:3306"
-WORDPRESS_DB_NAME ="wp-mysql"
-MYSQL_DATABASE="wp-mysql"
-MYSQL_PASSWORD="mlvoe@95"
-MYSQL_ROOT_PASSWORD="mlvoe@95"
-MYSQL_USER="mlvoe"
-WORDPRESS_TABLE_PREFIX = "wp_"
-WORDPRESS_DEBUG = "false"
+  WORDPRESS_DB_HOST = "wp-mysql-little-sound-540.internal:3306"
+  WORDPRESS_DB_NAME = "wordpress_db"
+  WORDPRESS_TABLE_PREFIX = "wp_"
+  WORDPRESS_DEBUG = "false"
 
 [[vm]]
   memory = '1gb'
