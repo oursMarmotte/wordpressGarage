@@ -7,8 +7,14 @@
 
 
 body{
-
+ 
     color:black;
+}
+
+.main-accueil{
+background-image: url('imgbackground.jpg') ;
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 
 .titre-accueil{
@@ -38,4 +44,11 @@ body{
 .sous-prestation-accueil{
 margin-left: 5px;;
 padding: 5px;
+}
+
+
+.pied-page{
+
+    color: white;
+    background-color: black;
 }

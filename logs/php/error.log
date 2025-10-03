@@ -119,3 +119,185 @@ Stack trace:
 [29-Sep-2025 15:51:08 UTC] PHP Warning:  Undefined array key "occasion" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 78
 [29-Sep-2025 15:52:11 UTC] PHP Warning:  Undefined array key "occasion" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 76
 [29-Sep-2025 15:52:11 UTC] PHP Warning:  Undefined array key "occasion" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 76
+[02-Oct-2025 09:29:24 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fgp_callback_fun" not found or invalid function name in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_my_acti...')
+#3 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php on line 324
+[02-Oct-2025 09:30:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\pluggable.php on line 1450
+[02-Oct-2025 09:30:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\pluggable.php on line 1453
+[02-Oct-2025 09:30:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 514
+[02-Oct-2025 09:30:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 515
+[02-Oct-2025 09:30:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 27
+[02-Oct-2025 09:30:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 28
+[02-Oct-2025 09:30:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7031
+[02-Oct-2025 09:30:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7168
+[02-Oct-2025 09:30:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7144
+[02-Oct-2025 09:30:39 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fgp_callback_fun" not found or invalid function name in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_my_acti...')
+#3 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php on line 324
+[02-Oct-2025 09:30:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 514
+[02-Oct-2025 09:30:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 515
+[02-Oct-2025 09:30:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 27
+[02-Oct-2025 09:30:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 28
+[02-Oct-2025 09:30:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7031
+[02-Oct-2025 09:30:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7168
+[02-Oct-2025 09:30:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7144
+[02-Oct-2025 09:31:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 514
+[02-Oct-2025 09:31:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 515
+[02-Oct-2025 09:31:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 27
+[02-Oct-2025 09:31:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 28
+[02-Oct-2025 09:31:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7031
+[02-Oct-2025 09:31:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7168
+[02-Oct-2025 09:31:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7144
+[02-Oct-2025 09:31:29 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fgp_callback_fun" not found or invalid function name in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_my_acti...')
+#3 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php on line 324
+[02-Oct-2025 09:32:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\pluggable.php on line 1450
+[02-Oct-2025 09:32:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\pluggable.php on line 1453
+[02-Oct-2025 09:32:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 514
+[02-Oct-2025 09:32:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 515
+[02-Oct-2025 09:32:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 27
+[02-Oct-2025 09:32:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 28
+[02-Oct-2025 09:32:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7031
+[02-Oct-2025 09:32:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7168
+[02-Oct-2025 09:32:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7144
+[02-Oct-2025 09:32:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 514
+[02-Oct-2025 09:32:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 515
+[02-Oct-2025 09:32:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 27
+[02-Oct-2025 09:32:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 28
+[02-Oct-2025 09:32:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7031
+[02-Oct-2025 09:32:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7168
+[02-Oct-2025 09:32:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7144
+[02-Oct-2025 09:34:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 514
+[02-Oct-2025 09:34:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 515
+[02-Oct-2025 09:34:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 27
+[02-Oct-2025 09:34:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 28
+[02-Oct-2025 09:34:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7031
+[02-Oct-2025 09:34:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7168
+[02-Oct-2025 09:34:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7144
+[02-Oct-2025 09:36:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 514
+[02-Oct-2025 09:36:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 515
+[02-Oct-2025 09:36:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 27
+[02-Oct-2025 09:36:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 28
+[02-Oct-2025 09:36:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7031
+[02-Oct-2025 09:36:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7168
+[02-Oct-2025 09:36:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7144
+[02-Oct-2025 09:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 514
+[02-Oct-2025 09:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 515
+[02-Oct-2025 09:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 27
+[02-Oct-2025 09:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 28
+[02-Oct-2025 09:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7031
+[02-Oct-2025 09:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7168
+[02-Oct-2025 09:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7144
+[02-Oct-2025 09:54:52 UTC] PHP Parse error:  syntax error, unexpected token "exit", expecting "," or ";" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php on line 49
+[02-Oct-2025 13:21:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_localize_scripts() in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php:33
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): my_theme_enqueue_styles('')
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\script-loader.php(2299): do_action('wp_enqueue_scri...')
+#4 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\general-template.php(3192): do_action('wp_head')
+#8 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\header.php(9): wp_head()
+#9 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template.php(810): require_once('C:\\Users\\marmot...')
+#10 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template.php(745): load_template('C:\\Users\\marmot...', true, Array)
+#11 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\404.php(1): get_header()
+#13 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\marmot...')
+#14 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-blog-header.php(19): require_once('C:\\Users\\marmot...')
+#15 C:\Users\marmotte\Local Sites\hotelbooking\app\public\index.php(17): require('C:\\Users\\marmot...')
+#16 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php on line 33
+[02-Oct-2025 13:21:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_localize_scripts() in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php:33
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): my_theme_enqueue_styles('')
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\script-loader.php(2299): do_action('wp_enqueue_scri...')
+#4 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\general-template.php(3192): do_action('wp_head')
+#8 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\header.php(9): wp_head()
+#9 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template.php(810): require_once('C:\\Users\\marmot...')
+#10 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template.php(745): load_template('C:\\Users\\marmot...', true, Array)
+#11 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\404.php(1): get_header()
+#13 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\marmot...')
+#14 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-blog-header.php(19): require_once('C:\\Users\\marmot...')
+#15 C:\Users\marmotte\Local Sites\hotelbooking\app\public\index.php(17): require('C:\\Users\\marmot...')
+#16 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php on line 33
+[02-Oct-2025 13:21:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_localize_scripts() in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php:33
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): my_theme_enqueue_styles('')
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\script-loader.php(2299): do_action('wp_enqueue_scri...')
+#4 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\general-template.php(3192): do_action('wp_head')
+#8 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\header.php(9): wp_head()
+#9 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template.php(810): require_once('C:\\Users\\marmot...')
+#10 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template.php(745): load_template('C:\\Users\\marmot...', true, Array)
+#11 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\404.php(1): get_header()
+#13 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\marmot...')
+#14 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-blog-header.php(19): require_once('C:\\Users\\marmot...')
+#15 C:\Users\marmotte\Local Sites\hotelbooking\app\public\index.php(17): require('C:\\Users\\marmot...')
+#16 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php on line 33
+[02-Oct-2025 13:21:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_localize_scripts() in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php:33
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): my_theme_enqueue_styles('')
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\script-loader.php(2299): do_action('wp_enqueue_scri...')
+#4 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\general-template.php(3192): do_action('wp_head')
+#8 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\header.php(9): wp_head()
+#9 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template.php(810): require_once('C:\\Users\\marmot...')
+#10 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template.php(745): load_template('C:\\Users\\marmot...', true, Array)
+#11 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\front-page.php(2): get_header()
+#13 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\marmot...')
+#14 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-blog-header.php(19): require_once('C:\\Users\\marmot...')
+#15 C:\Users\marmotte\Local Sites\hotelbooking\app\public\index.php(17): require('C:\\Users\\marmot...')
+#16 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php on line 33
+[02-Oct-2025 16:34:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_text_fields() in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\inc\ajax-handlers.php:6
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): jg_handle_ajax_request('')
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_mon_scr...')
+#4 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\inc\ajax-handlers.php on line 6
+[02-Oct-2025 16:35:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_text_fields() in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\inc\ajax-handlers.php:6
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): jg_handle_ajax_request('')
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_mon_scr...')
+#4 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\inc\ajax-handlers.php on line 6
+[02-Oct-2025 17:11:19 UTC] WordPress database error Table 'local.wp_messages_clients' doesn't exist for query SHOW FULL COLUMNS FROM `wp_messages_clients` made by do_action('wp_ajax_mon_script_action'), WP_Hook->do_action, WP_Hook->apply_filters, jg_handle_ajax_request
+[02-Oct-2025 17:12:00 UTC] WordPress database error Table 'local.wp_messages_clients' doesn't exist for query SELECT COUNT(*) FROM wp_messages_clients WHERE status = 'non_lu' made by require_once('wp-admin/admin-header.php'), do_action('admin_head'), WP_Hook->do_action, WP_Hook->apply_filters, jg_add_notification_badge
+[02-Oct-2025 17:12:09 UTC] WordPress database error Table 'local.wp_messages_clients' doesn't exist for query SELECT COUNT(*) FROM wp_messages_clients WHERE status = 'non_lu' made by require_once('wp-admin/admin-header.php'), do_action('admin_head'), WP_Hook->do_action, WP_Hook->apply_filters, jg_add_notification_badge
+[02-Oct-2025 17:12:09 UTC] WordPress database error Table 'local.wp_messages_clients' doesn't exist for query SELECT * FROM wp_messages_clients ORDER BY date_envoi DESC made by do_action('toplevel_page_messages-clients'), WP_Hook->do_action, WP_Hook->apply_filters, jg_display_messages_page

@@ -3,6 +3,7 @@
 <?php
 
 require_once get_template_directory() .'/class-wp-bootstrap-navwalker.php';
+require_once get_template_directory().'/inc/ajax-handlers.php';
 
 // Activer certaines fonctionnalités du thème
 function pizza(){
@@ -29,8 +30,30 @@ function my_theme_enqueue_styles(){
 
     // Style principal
     wp_enqueue_style('theme-style', get_stylesheet_uri());
+
+    wp_localize_script(
+        'mon-script' ,
+        'monscriptAjax',array(
+            'ajax_url'=>admin_url('admin-ajax.php'),
+            'nonce' =>wp_create_nonce('mon-script_nonce')
+        )
+    );
 }
 add_action('wp_enqueue_scripts','my_theme_enqueue_styles');
+
+
+
+// function jg_handle_ajax_request(){
+//     check_ajax_referer('mon-script_nonce','security');
+//     $message = sanitize_text_field($_POST['message']?? '');
+//     $response = "Message recu coté serveur:" .$message;
+//     echo $response;
+//     wp_die();
+// }
+
+// add_action('wp_ajax_mon_script_action','jg_handle_ajax_request');
+
+// add_action('wp_ajax_nopriv_mon_script_action','jg_handle_ajax_request');
 
 // Charger Bootstrap (CDN)
 function jg_theme_enqueue_bootstrap(){
@@ -53,7 +76,7 @@ function jg_theme_enqueue_bootstrap(){
     wp_enqueue_script(
         'bootstrap-js',
         'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js',
-        array('jquery'),
+        array(),
         '5.3.3',
         true
     );
@@ -70,6 +93,7 @@ function mon_theme_register_menus(){
     );
 }
 add_action('after_setup_theme','mon_theme_register_menus');
+
 
 
 

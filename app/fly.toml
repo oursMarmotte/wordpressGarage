@@ -19,7 +19,7 @@ primary_region = 'cdg'
 
 [env]
   WORDPRESS_DB_HOST = "wp-mysql-little-sound-540.internal:3306"
-  WORDPRESS_DB_NAME = "wordpress_db"
+  WORDPRESS_DB_NAME = "wordpress_bd"
   WORDPRESS_TABLE_PREFIX = "wp_"
   WORDPRESS_DEBUG = "false"
 
