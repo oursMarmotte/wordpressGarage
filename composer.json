@@ -1,6 +1,7 @@
 {
-    "require":{
-        "php":">=7.4",
-        "ext-mysql":"*c"
-    }
+  "require": {
+    "php": "^8.0",
+    "ext-gd": "*",
+    "ext-mysqli": "*"
+  }
 }
