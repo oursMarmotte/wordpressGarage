@@ -52,3 +52,13 @@ padding: 5px;
     color: white;
     background-color: black;
 }
+
+.title-atelier{
+    background-color: black;
+    width: 30%;
+    color:white;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding: 5px;
+}
