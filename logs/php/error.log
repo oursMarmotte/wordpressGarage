@@ -1,0 +1,324 @@
+[08-Aug-2025 08:58:14 UTC] WordPress database error Table 'wp_e_events' already exists for query CREATE TABLE `wp_e_events` (
+			id bigint(20) unsigned auto_increment primary key,
+			event_data text null,
+			created_at datetime not null
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci; made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->create_table
+[08-Aug-2025 08:58:15 UTC] WordPress database error Duplicate key name 'created_at_index' for query ALTER TABLE wp_e_events
+    		ADD INDEX `created_at_index` (`created_at`)
+		 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->add_indexes
+[08-Aug-2025 09:17:59 UTC] PHP Warning:  Undefined array key "uuid" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\astra-sites\inc\lib\ai-builder\inc\ajax\plugin.php on line 287
+[08-Aug-2025 09:27:38 UTC] PHP Warning:  Undefined array key "uuid" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\astra-sites\inc\lib\ai-builder\inc\ajax\plugin.php on line 282
+[08-Aug-2025 09:27:38 UTC] PHP Warning:  Undefined array key "uuid" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\astra-sites\inc\lib\ai-builder\inc\ajax\plugin.php on line 287
+[08-Aug-2025 09:54:01 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[21-Aug-2025 16:27:40 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\index.php on line 7
+[21-Aug-2025 16:28:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_posts() in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\index.php:5
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-blog-header.php(19): require_once('C:\\Users\\marmot...')
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\index.php(17): require('C:\\Users\\marmot...')
+#3 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\index.php on line 5
+[21-Aug-2025 18:06:00 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php on line 15
+[21-Aug-2025 18:06:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[21-Aug-2025 18:06:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[21-Aug-2025 18:07:57 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php on line 15
+[21-Aug-2025 18:08:01 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php on line 15
+[25-Aug-2025 16:21:13 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[25-Aug-2025 16:38:54 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[25-Aug-2025 17:04:13 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php on line 41
+[25-Aug-2025 17:04:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[25-Aug-2025 17:04:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[25-Aug-2025 18:22:46 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-customize-widgets.php on line 926
+[25-Aug-2025 18:35:27 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[26-Aug-2025 08:58:39 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[26-Aug-2025 09:19:36 UTC] PHP Warning:  Undefined property: WP_Block_Template::$media in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\create-block-theme\includes\create-theme\theme-templates.php on line 233
+[26-Aug-2025 09:19:36 UTC] PHP Warning:  Undefined property: WP_Block_Template::$media in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\create-block-theme\includes\create-theme\theme-templates.php on line 233
+[26-Aug-2025 11:30:05 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-customize-widgets.php on line 926
+[26-Aug-2025 17:13:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: _() expects exactly 1 argument, 2 given in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php:71
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php(71): _('Menu principal', 'mon-theme')
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): mon_theme_register_menus('')
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-settings.php(705): do_action('after_setup_the...')
+#5 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php(103): require_once('C:\\Users\\marmot...')
+#6 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-load.php(50): require_once('C:\\Users\\marmot...')
+#7 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-blog-header.php(13): require_once('C:\\Users\\marmot...')
+#8 C:\Users\marmotte\Local Sites\hotelbooking\app\public\index.php(17): require('C:\\Users\\marmot...')
+#9 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php on line 71
+[26-Aug-2025 17:13:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: _() expects exactly 1 argument, 2 given in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php:71
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php(71): _('Menu principal', 'mon-theme')
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): mon_theme_register_menus('')
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-settings.php(705): do_action('after_setup_the...')
+#5 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php(103): require_once('C:\\Users\\marmot...')
+#6 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-load.php(50): require_once('C:\\Users\\marmot...')
+#7 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-blog-header.php(13): require_once('C:\\Users\\marmot...')
+#8 C:\Users\marmotte\Local Sites\hotelbooking\app\public\index.php(17): require('C:\\Users\\marmot...')
+#9 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php on line 71
+[26-Aug-2025 17:15:20 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-customize-widgets.php on line 926
+[26-Aug-2025 17:32:32 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-customize-widgets.php on line 926
+[26-Aug-2025 17:35:50 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-customize-widgets.php on line 926
+[27-Aug-2025 18:05:45 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[27-Aug-2025 18:05:46 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[27-Aug-2025 18:05:46 UTC] Cron unschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[27-Aug-2025 18:05:46 UTC] Cron reschedule event error for hook: wp_update_user_counts, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[27-Aug-2025 18:05:46 UTC] Cron unschedule event error for hook: wp_update_user_counts, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[27-Aug-2025 18:05:46 UTC] Cron reschedule event error for hook: wp_version_check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[27-Aug-2025 18:05:46 UTC] Cron unschedule event error for hook: wp_version_check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[27-Aug-2025 19:40:30 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-customize-widgets.php on line 926
+[28-Aug-2025 17:04:57 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[11-Sep-2025 18:11:17 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[29-Sep-2025 07:47:06 UTC] PHP Fatal error:  Cannot redeclare rp_shortcode_recherche_taxonomies() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php:14) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php on line 14
+[29-Sep-2025 07:51:49 UTC] PHP Fatal error:  Cannot redeclare rp_shortcode_recherche_taxonomies() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php:14) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php on line 14
+[29-Sep-2025 07:52:12 UTC] PHP Fatal error:  Cannot redeclare rp_shortcode_recherche_taxonomies() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php:14) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php on line 14
+[29-Sep-2025 07:56:55 UTC] PHP Fatal error:  Cannot redeclare rp_shortcode_recherche_taxonomies() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php:14) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php on line 14
+[29-Sep-2025 07:58:18 UTC] PHP Fatal error:  Cannot redeclare rp_shortcode_recherche_taxonomies() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php:14) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php on line 14
+[29-Sep-2025 08:09:47 UTC] PHP Fatal error:  Cannot redeclare rp_shortcode_recherche_taxonomies() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php:14) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php on line 14
+[29-Sep-2025 08:10:05 UTC] PHP Fatal error:  Cannot redeclare rp_shortcode_recherche_taxonomies() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php:14) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php on line 14
+[29-Sep-2025 08:10:11 UTC] PHP Fatal error:  Cannot redeclare rp_shortcode_recherche_taxonomies() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php:14) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php on line 14
+[29-Sep-2025 08:32:25 UTC] PHP Fatal error:  Cannot redeclare rp_shortcode_recherche_taxonomies() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php:14) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php on line 14
+[29-Sep-2025 08:32:55 UTC] PHP Fatal error:  Cannot redeclare rp_shortcode_recherche_taxonomies() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php:14) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\our-plugin-garageOise\build\garageoiseblocktwo\render.php on line 14
+[29-Sep-2025 09:37:04 UTC] PHP Fatal error:  Cannot redeclare rp_shortcode_recherche_taxonomies() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php:9) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 9
+[29-Sep-2025 09:37:20 UTC] PHP Fatal error:  Cannot redeclare rp_shortcode_recherche_taxonomies() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php:9) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 9
+[29-Sep-2025 09:38:08 UTC] PHP Fatal error:  Cannot redeclare rp_shortcode_recherche_taxonomies() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php:9) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 9
+[29-Sep-2025 10:03:39 UTC] PHP Fatal error:  Cannot redeclare rp_shortcode_recherche_taxonomies() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php:11) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 11
+[29-Sep-2025 10:09:13 UTC] PHP Fatal error:  Cannot redeclare rp_recherche_taxonomies() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php:11) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 11
+[29-Sep-2025 10:09:49 UTC] PHP Fatal error:  Cannot redeclare rp_recherche_taxonomies() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php:11) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 11
+[29-Sep-2025 10:09:53 UTC] PHP Fatal error:  Cannot redeclare rp_recherche_taxonomies() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php:11) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 11
+[29-Sep-2025 10:34:47 UTC] PHP Fatal error:  Cannot redeclare rp_render_block() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php:8) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 8
+[29-Sep-2025 10:35:00 UTC] PHP Fatal error:  Cannot redeclare rp_render_block() (previously declared in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php:8) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 8
+[29-Sep-2025 14:47:00 UTC] PHP Parse error:  syntax error, unexpected identifier "sidebar", expecting ")" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php on line 139
+[29-Sep-2025 15:43:27 UTC] PHP Warning:  Undefined array key "chercher-voiture" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 76
+[29-Sep-2025 15:43:27 UTC] PHP Warning:  Undefined array key "chercher-voiture" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 76
+[29-Sep-2025 15:46:35 UTC] PHP Warning:  Undefined array key "chercher-voiture" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 76
+[29-Sep-2025 15:46:35 UTC] PHP Warning:  Undefined array key "chercher-voiture" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 76
+[29-Sep-2025 15:46:43 UTC] PHP Warning:  Undefined array key "chercher-voiture" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 76
+[29-Sep-2025 15:46:43 UTC] PHP Warning:  Undefined array key "chercher-voiture" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 76
+[29-Sep-2025 15:46:50 UTC] PHP Warning:  Undefined array key "chercher-voiture" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 76
+[29-Sep-2025 15:46:50 UTC] PHP Warning:  Undefined array key "chercher-voiture" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 76
+[29-Sep-2025 15:50:47 UTC] PHP Fatal error:  Uncaught TypeError: Illegal offset type in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php:78
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-block.php(586): rp_render_block(Array, '', Object(WP_Block))
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\blocks.php(2359): WP_Block->render()
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\blocks.php(2431): render_block(Array)
+#3 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): do_blocks('<!-- wp:query {...')
+#4 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<!-- wp:query {...', Array)
+#5 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '<!-- wp:query {...')
+#6 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\page.php(13): the_content()
+#7 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\marmot...')
+#8 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-blog-header.php(19): require_once('C:\\Users\\marmot...')
+#9 C:\Users\marmotte\Local Sites\hotelbooking\app\public\index.php(17): require('C:\\Users\\marmot...')
+#10 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 78
+[29-Sep-2025 15:51:08 UTC] PHP Warning:  Undefined array key "occasion" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 78
+[29-Sep-2025 15:51:08 UTC] PHP Warning:  Undefined array key "occasion" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 78
+[29-Sep-2025 15:52:11 UTC] PHP Warning:  Undefined array key "occasion" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 76
+[29-Sep-2025 15:52:11 UTC] PHP Warning:  Undefined array key "occasion" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\carSearch\build\car-search\render.php on line 76
+[02-Oct-2025 09:29:24 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fgp_callback_fun" not found or invalid function name in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_my_acti...')
+#3 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php on line 324
+[02-Oct-2025 09:30:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\pluggable.php on line 1450
+[02-Oct-2025 09:30:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\pluggable.php on line 1453
+[02-Oct-2025 09:30:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 514
+[02-Oct-2025 09:30:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 515
+[02-Oct-2025 09:30:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 27
+[02-Oct-2025 09:30:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 28
+[02-Oct-2025 09:30:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7031
+[02-Oct-2025 09:30:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7168
+[02-Oct-2025 09:30:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7144
+[02-Oct-2025 09:30:39 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fgp_callback_fun" not found or invalid function name in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_my_acti...')
+#3 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php on line 324
+[02-Oct-2025 09:30:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 514
+[02-Oct-2025 09:30:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 515
+[02-Oct-2025 09:30:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 27
+[02-Oct-2025 09:30:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 28
+[02-Oct-2025 09:30:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7031
+[02-Oct-2025 09:30:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7168
+[02-Oct-2025 09:30:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7144
+[02-Oct-2025 09:31:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 514
+[02-Oct-2025 09:31:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 515
+[02-Oct-2025 09:31:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 27
+[02-Oct-2025 09:31:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 28
+[02-Oct-2025 09:31:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7031
+[02-Oct-2025 09:31:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7168
+[02-Oct-2025 09:31:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:52) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7144
+[02-Oct-2025 09:31:29 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fgp_callback_fun" not found or invalid function name in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_my_acti...')
+#3 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php on line 324
+[02-Oct-2025 09:32:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\pluggable.php on line 1450
+[02-Oct-2025 09:32:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\pluggable.php on line 1453
+[02-Oct-2025 09:32:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 514
+[02-Oct-2025 09:32:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 515
+[02-Oct-2025 09:32:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 27
+[02-Oct-2025 09:32:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 28
+[02-Oct-2025 09:32:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7031
+[02-Oct-2025 09:32:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7168
+[02-Oct-2025 09:32:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7144
+[02-Oct-2025 09:32:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 514
+[02-Oct-2025 09:32:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 515
+[02-Oct-2025 09:32:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 27
+[02-Oct-2025 09:32:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 28
+[02-Oct-2025 09:32:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7031
+[02-Oct-2025 09:32:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7168
+[02-Oct-2025 09:32:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7144
+[02-Oct-2025 09:34:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 514
+[02-Oct-2025 09:34:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 515
+[02-Oct-2025 09:34:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 27
+[02-Oct-2025 09:34:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 28
+[02-Oct-2025 09:34:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7031
+[02-Oct-2025 09:34:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7168
+[02-Oct-2025 09:34:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:54) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7144
+[02-Oct-2025 09:36:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 514
+[02-Oct-2025 09:36:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 515
+[02-Oct-2025 09:36:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 27
+[02-Oct-2025 09:36:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 28
+[02-Oct-2025 09:36:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7031
+[02-Oct-2025 09:36:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7168
+[02-Oct-2025 09:36:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7144
+[02-Oct-2025 09:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 514
+[02-Oct-2025 09:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\http.php on line 515
+[02-Oct-2025 09:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 27
+[02-Oct-2025 09:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php on line 28
+[02-Oct-2025 09:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7031
+[02-Oct-2025 09:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7168
+[02-Oct-2025 09:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php:55) in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\functions.php on line 7144
+[02-Oct-2025 09:54:52 UTC] PHP Parse error:  syntax error, unexpected token "exit", expecting "," or ";" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\plugins\formulaire\form.php on line 49
+[02-Oct-2025 13:21:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_localize_scripts() in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php:33
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): my_theme_enqueue_styles('')
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\script-loader.php(2299): do_action('wp_enqueue_scri...')
+#4 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\general-template.php(3192): do_action('wp_head')
+#8 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\header.php(9): wp_head()
+#9 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template.php(810): require_once('C:\\Users\\marmot...')
+#10 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template.php(745): load_template('C:\\Users\\marmot...', true, Array)
+#11 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\404.php(1): get_header()
+#13 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\marmot...')
+#14 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-blog-header.php(19): require_once('C:\\Users\\marmot...')
+#15 C:\Users\marmotte\Local Sites\hotelbooking\app\public\index.php(17): require('C:\\Users\\marmot...')
+#16 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php on line 33
+[02-Oct-2025 13:21:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_localize_scripts() in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php:33
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): my_theme_enqueue_styles('')
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\script-loader.php(2299): do_action('wp_enqueue_scri...')
+#4 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\general-template.php(3192): do_action('wp_head')
+#8 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\header.php(9): wp_head()
+#9 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template.php(810): require_once('C:\\Users\\marmot...')
+#10 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template.php(745): load_template('C:\\Users\\marmot...', true, Array)
+#11 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\404.php(1): get_header()
+#13 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\marmot...')
+#14 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-blog-header.php(19): require_once('C:\\Users\\marmot...')
+#15 C:\Users\marmotte\Local Sites\hotelbooking\app\public\index.php(17): require('C:\\Users\\marmot...')
+#16 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php on line 33
+[02-Oct-2025 13:21:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_localize_scripts() in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php:33
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): my_theme_enqueue_styles('')
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\script-loader.php(2299): do_action('wp_enqueue_scri...')
+#4 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\general-template.php(3192): do_action('wp_head')
+#8 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\header.php(9): wp_head()
+#9 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template.php(810): require_once('C:\\Users\\marmot...')
+#10 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template.php(745): load_template('C:\\Users\\marmot...', true, Array)
+#11 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\404.php(1): get_header()
+#13 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\marmot...')
+#14 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-blog-header.php(19): require_once('C:\\Users\\marmot...')
+#15 C:\Users\marmotte\Local Sites\hotelbooking\app\public\index.php(17): require('C:\\Users\\marmot...')
+#16 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php on line 33
+[02-Oct-2025 13:21:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_localize_scripts() in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php:33
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): my_theme_enqueue_styles('')
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\script-loader.php(2299): do_action('wp_enqueue_scri...')
+#4 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\general-template.php(3192): do_action('wp_head')
+#8 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\header.php(9): wp_head()
+#9 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template.php(810): require_once('C:\\Users\\marmot...')
+#10 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template.php(745): load_template('C:\\Users\\marmot...', true, Array)
+#11 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\front-page.php(2): get_header()
+#13 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\marmot...')
+#14 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-blog-header.php(19): require_once('C:\\Users\\marmot...')
+#15 C:\Users\marmotte\Local Sites\hotelbooking\app\public\index.php(17): require('C:\\Users\\marmot...')
+#16 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\functions.php on line 33
+[02-Oct-2025 16:34:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_text_fields() in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\inc\ajax-handlers.php:6
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): jg_handle_ajax_request('')
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_mon_scr...')
+#4 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\inc\ajax-handlers.php on line 6
+[02-Oct-2025 16:35:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_text_fields() in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\inc\ajax-handlers.php:6
+Stack trace:
+#0 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(324): jg_handle_ajax_request('')
+#1 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_mon_scr...')
+#4 {main}
+  thrown in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-content\themes\jg-theme-wordpress\inc\ajax-handlers.php on line 6
+[02-Oct-2025 17:11:19 UTC] WordPress database error Table 'local.wp_messages_clients' doesn't exist for query SHOW FULL COLUMNS FROM `wp_messages_clients` made by do_action('wp_ajax_mon_script_action'), WP_Hook->do_action, WP_Hook->apply_filters, jg_handle_ajax_request
+[02-Oct-2025 17:12:00 UTC] WordPress database error Table 'local.wp_messages_clients' doesn't exist for query SELECT COUNT(*) FROM wp_messages_clients WHERE status = 'non_lu' made by require_once('wp-admin/admin-header.php'), do_action('admin_head'), WP_Hook->do_action, WP_Hook->apply_filters, jg_add_notification_badge
+[02-Oct-2025 17:12:09 UTC] WordPress database error Table 'local.wp_messages_clients' doesn't exist for query SELECT COUNT(*) FROM wp_messages_clients WHERE status = 'non_lu' made by require_once('wp-admin/admin-header.php'), do_action('admin_head'), WP_Hook->do_action, WP_Hook->apply_filters, jg_add_notification_badge
+[02-Oct-2025 17:12:09 UTC] WordPress database error Table 'local.wp_messages_clients' doesn't exist for query SELECT * FROM wp_messages_clients ORDER BY date_envoi DESC made by do_action('toplevel_page_messages-clients'), WP_Hook->do_action, WP_Hook->apply_filters, jg_display_messages_page
+[07-Oct-2025 08:24:32 UTC] PHP Warning:  Undefined array key "user" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 44
+[07-Oct-2025 08:24:32 UTC] PHP Warning:  Undefined array key "pass" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 45
+[07-Oct-2025 08:24:32 UTC] PHP Warning:  Undefined array key "host" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 46
+[07-Oct-2025 08:24:34 UTC] PHP Warning:  Undefined array key "user" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 44
+[07-Oct-2025 08:24:34 UTC] PHP Warning:  Undefined array key "pass" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 45
+[07-Oct-2025 08:24:34 UTC] PHP Warning:  Undefined array key "host" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 46
+[09-Oct-2025 11:39:22 UTC] PHP Warning:  Undefined array key "user" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 53
+[09-Oct-2025 11:39:22 UTC] PHP Warning:  Undefined array key "pass" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 54
+[09-Oct-2025 11:39:22 UTC] PHP Warning:  Undefined array key "host" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 55
+[09-Oct-2025 11:39:22 UTC] PHP Warning:  Undefined array key "user" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 53
+[09-Oct-2025 11:39:22 UTC] PHP Warning:  Undefined array key "pass" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 54
+[09-Oct-2025 11:39:22 UTC] PHP Warning:  Undefined array key "host" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 55
+[09-Oct-2025 18:10:17 UTC] PHP Warning:  Undefined array key "user" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 59
+[09-Oct-2025 18:10:17 UTC] PHP Warning:  Undefined array key "pass" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 60
+[09-Oct-2025 18:10:17 UTC] PHP Warning:  Undefined array key "host" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 61
+[09-Oct-2025 18:23:38 UTC] PHP Warning:  Undefined array key "user" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 59
+[09-Oct-2025 18:23:38 UTC] PHP Warning:  Undefined array key "pass" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 60
+[09-Oct-2025 18:23:38 UTC] PHP Warning:  Undefined array key "host" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 61
+[09-Oct-2025 18:28:02 UTC] PHP Warning:  Undefined array key "user" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 59
+[09-Oct-2025 18:28:02 UTC] PHP Warning:  Undefined array key "pass" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 60
+[09-Oct-2025 18:28:02 UTC] PHP Warning:  Undefined array key "host" in C:\Users\marmotte\Local Sites\hotelbooking\app\public\wp-config.php on line 61

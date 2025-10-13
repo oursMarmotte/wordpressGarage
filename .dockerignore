@@ -1,0 +1,12 @@
+.git
+.gitignore
+.env
+.DS_Store
+node_modules
+*.log
+*.sql
+README.md
+wordpress/wp-content/cache/*
+wordpress/wp-content/uploads/cache/*
+wordpress/.htaccess.bak
+wordpress/wp-config-sample.php

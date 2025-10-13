@@ -1,0 +1,54 @@
+/*
+*Theme Name: Our new brand Theme
+*Theme URI:https://www.genuine.org
+*Author:Centaure jg
+*Description :Garage de l Oise
+*/
+
+
+body{
+ 
+    color:black;
+}
+
+.main-accueil{
+background-image: url('imgbackground.jpg') ;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.titre-accueil{
+    background-color:orange;
+    border-radius: 5px;
+    width: 50%;
+    padding: 5px;
+    color: white;
+}
+.prestation-accueil{
+    margin-left: 10%;
+}
+
+.img-accueil{
+    
+    background-image: url('caroccasion3.png') ;
+    background-repeat: no-repeat;
+   background-size: contain;
+}
+.cadre-accueil{
+    border-radius: 5px;
+    border-style: ridge;
+}
+
+
+
+.sous-prestation-accueil{
+margin-left: 5px;;
+padding: 5px;
+}
+
+
+.pied-page{
+
+    color: white;
+    background-color: black;
+}
