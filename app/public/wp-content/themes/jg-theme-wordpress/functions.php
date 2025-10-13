@@ -64,7 +64,12 @@ function jg_theme_enqueue_bootstrap(){
         array(),
         '5.3.3'
     );
-
+ wp_enqueue_style(
+        'bootstrap-icons',
+        'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css',
+        array(),
+        '1.11.3'
+    );
     // Ton style après Bootstrap
     wp_enqueue_style(
         'mon_theme_style',
