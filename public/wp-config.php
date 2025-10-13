@@ -1,4 +1,6 @@
 <?php
+
+
 /**
  * The base configuration for WordPress
  *
@@ -78,6 +80,19 @@ define( 'WP_CACHE_KEY_SALT', '7$PssZ[rkOl/@78=S ,#?0fC]TmQ%!]QKwZRdTyn,6H=| de$T
  */
 $table_prefix = 'wp_';
 
+// ** URLs du site (adapter avec ton vrai domaine OVH) ** 
+
+define('WP_Home','https://genuine-entreprise.com');
+define('WP_SITEURL','https://genuine-entreprise.com');
+// ** Environnement ** //
+define('WP_ENVIROMMMENT_TYPE','production');
+
+if($_SERVER['HTTP_HOST']==='localhost'){
+	define('WP_DEBUG',true);
+}else{
+	define('WP_DEBUG',false);
+}
+
 
 /* Add any custom values between this line and the "stop editing" line. */
 
@@ -99,7 +114,7 @@ if ( ! defined( 'WP_DEBUG' ) ) {
 	define( 'WP_DEBUG', false );
 }
 
-define( 'WP_ENVIRONMENT_TYPE', 'local' );
+// define( 'WP_ENVIRONMENT_TYPE', 'local' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
