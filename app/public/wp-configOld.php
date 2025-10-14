@@ -1,7 +1,7 @@
 <?php
-if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') {
-    $_SERVER['HTTPS'] = 'on';
-}
+
+
+
 
 
 /**
@@ -26,31 +26,23 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROT
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'genuingmlvoe' );
+// define( 'DB_NAME', 'local' );
 
-/** Database username */
-define( 'DB_USER', 'genuingmlvoe' );
+// /** Database username */
+// define( 'DB_USER', 'root' );
 
-/** Database password */
-define( 'DB_PASSWORD', 'Leviathan474' );
+// /** Database password */
+// define( 'DB_PASSWORD', 'root' );
 
-/** Database hostname */
-define( 'DB_HOST', 'genuingmlvoe.mysql.db' );
+// /** Database hostname */
+// define( 'DB_HOST', 'localhost' );
 
-/** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+// /** Database charset to use in creating database tables. */
+// define( 'DB_CHARSET', 'utf8' );
 
-/** The database collate type. Don't change this if in doubt. */
-define( 'DB_COLLATE', '' );
+// /** The database collate type. Don't change this if in doubt. */
+// define( 'DB_COLLATE', '' );
 
-// $url = parse_url(getenv("JAWSDB_URL"));
-
-// define('DB_NAME', substr($url["path"], 1));
-// define('DB_USER', $url["user"]);
-// define('DB_PASSWORD', $url["pass"]);
-// define('DB_HOST', $url["host"]);
-// define('DB_CHARSET', 'utf8');
-// define('DB_COLLATE', '');
 /**#@+
  * Authentication unique keys and salts.
  *
@@ -83,18 +75,27 @@ define( 'WP_CACHE_KEY_SALT', '7$PssZ[rkOl/@78=S ,#?0fC]TmQ%!]QKwZRdTyn,6H=| de$T
  */
 $table_prefix = 'wp_';
 
-// ** URLs du site (adapter avec ton vrai domaine OVH) ** 
 
-define('WP_Home','https://genuine-entreprise.com');
-define('WP_SITEURL','https://genuine-entreprise.com');
-// ** Environnement ** //
-define('WP_ENVIROMMMENT_TYPE','production');
 
-if($_SERVER['HTTP_HOST']==='localhost'){
-	define('WP_DEBUG',true);
-}else{
-	define('WP_DEBUG',false);
-}
+
+
+    define( 'DB_NAME', 'local' );
+
+/** Database username */
+define( 'DB_USER', 'root' );
+
+/** Database password */
+define( 'DB_PASSWORD','root' );
+
+/** Database hostname */
+define( 'DB_HOST','localhost' );
+
+/** Database charset to use in creating database tables. */
+define( 'DB_CHARSET', 'utf8' );
+
+/** The database collate type. Don't change this if in doubt. */
+define( 'DB_COLLATE', '' );
+
 
 
 /* Add any custom values between this line and the "stop editing" line. */
@@ -117,11 +118,10 @@ if ( ! defined( 'WP_DEBUG' ) ) {
 	define( 'WP_DEBUG', false );
 }
 
-// define( 'WP_ENVIRONMENT_TYPE', 'local' );
+define( 'WP_ENVIRONMENT_TYPE', 'local' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
-
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
