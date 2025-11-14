@@ -1,0 +1,40 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/reservationform/style.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-reservationform {
+  background-color: #21759b;
+  color: #fff;
+  padding: 2px;
+}
+.autoReservationForm {
+  margin-top: -700px;
+  margin-left: 0px;
+  display: none;
+  width: 600px;
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1%;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  box-shadow: 0px 0px 7px #333;
+  -moz-box-shadow: 0px 0px 7px #333;
+  -webkit-box-shadow: 0px 0px 7px #333;
+}
+.autoReservation-message {
+  width: 50%;
+  padding: 5px;
+  background-color: orange;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

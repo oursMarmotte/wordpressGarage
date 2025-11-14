@@ -17,7 +17,8 @@ if ( ! function_exists( 'rp_render_block' ) ) {
 
         ob_start();
         ?>
-        <div class="second-block col card">
+        <div class="wp-block-create-block-car-search ">
+            <p>Recherche</p>
             <div class="form-group">
                 <form method="get" action="">
                     <?php foreach ($taxonomies as $tax) : ?>
@@ -45,7 +46,7 @@ if ( ! function_exists( 'rp_render_block' ) ) {
                         <?php endif; ?>
                     <?php endforeach; ?>
 
-                    <button class="btn btn-primary" type="submit">Rechercher</button>
+                    <button class=" btn btn-outline-dark mb-10" name="rechercher" type="submit">Rechercher</button>
                 </form>
                 <hr>
             </div>
@@ -73,15 +74,16 @@ if ( ! function_exists( 'rp_render_block' ) ) {
 
         $query = new WP_Query($args);
 
-        if ($query->have_posts()) {
-            echo '<ul>';
+        if ($query->have_posts() && (isset($_GET['occasion']))) {
+            
+            echo '<div class="alert alert-success"><ul>';
             while ($query->have_posts()) {
                 $query->the_post();
                 echo '<li><a href="' . esc_url(get_permalink()) . '">' . get_the_title() . '</a></li>';
             }
-            echo '</ul>';
+            echo '</ul></div>';
         } else {
-            echo '<p>Aucun résultat trouvé.</p>';
+            echo '<div class="alert alert-danger "><p>Aucun résultat trouvé.</p></div>';
         }
 
         wp_reset_postdata();

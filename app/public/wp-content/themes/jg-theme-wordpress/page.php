@@ -1,7 +1,7 @@
 <?php get_header()?>
 
 
-<div class="container">
+<div class="container-fluid content-page">
 
 <?php
 while(have_posts()){
@@ -13,15 +13,14 @@ the_post(); ?>
 
 
 
-<div class="content col-10 card">
+<div class="content col-12 ">
+    
     <?php the_content()?>
+  
 </div>
-<div class="col-2">
-<aside class="sidebar">
-    <?php ma_sidebar(); ?>
-</aside>
+
 </div>
-</div>
+
 <?php }
 ?>
 </div>

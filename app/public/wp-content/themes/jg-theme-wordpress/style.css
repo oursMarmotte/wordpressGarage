@@ -7,37 +7,48 @@
 
 
 body{
- 
-    color:black;
-}
 
-.main-accueil{
-background-image: url('imgbackground.jpg') ;
+    color:black;
+
+    background-image: url('imgbackground.jpg') ;
  background-repeat: no-repeat;
  background-size: cover;
 }
 
+
+.content-page{
+    background-color: white;
+    margin-top: 5%;
+}
+
+
 .titre-accueil{
     background-color:orange;
     border-radius: 5px;
-    width: 50%;
+    width:fit-content;
+    height: 30%;
     padding: 5px;
     color: white;
+    font-weight: bold;
 }
 .prestation-accueil{
-    margin-left: 10%;
+    color: white;
+    background-image: url('moteur.jpg');
+background-repeat: no-repeat;
+background-size: auto;
+   
 }
 
 .img-accueil{
-    
-    background-image: url('caroccasion3.png') ;
+ 
+ background-image: url('caroccasion30.png') ;
     background-repeat: no-repeat;
-   background-size: contain;
+   background-size: contain; 
+   background-position: center;
+   min-height: 400px;
+   border-radius: 8px;
 }
-.cadre-accueil{
-    border-radius: 5px;
-    border-style: ridge;
-}
+
 
 
 
@@ -48,17 +59,109 @@ padding: 5px;
 
 
 .pied-page{
-
+margin-top: 10%;
     color: white;
     background-color: black;
+    margin-bottom: 0%;
 }
 
 .title-atelier{
-    background-color: black;
+    background-color:orange;
+    
     width: 30%;
     color:white;
     margin-top: 10px;
     margin-bottom: 25px;
     border-radius: 5px;
     padding: 5px;
+}
+
+
+
+.accueil-presentation{
+
+    margin-bottom: 2px;
+    padding:5px;
+}
+
+
+.img-devis{
+    border-radius: 5px;
+    background-image: url('ateliermecanique.png');
+    height:200px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.page-accueil{
+    max-width: fit-content;
+}
+
+.info-revision{
+    border: solid 1px grey;
+
+    padding: 5px;;
+    border-radius: 5px;
+    background-color:white;
+    width:70%;
+    margin-left: 10%;
+    height: auto;
+    font-weight: bold;
+}
+
+.top-menu{
+    font-weight: bold;
+    
+    font-size: large;
+
+    .nav-link{
+        color: white;
+    }
+    .nav-link:hover{
+        background-color: rgb(255, 255, 255);
+        color:black;
+    }
+    
+}
+
+.navbar-brand{
+    font-weight: bold;
+    
+}
+
+.google-card{
+    margin-left: 10%;
+    padding: 5px;
+    width: fit-content;
+   height:fit-content;
+    background-color: white;
+}
+
+.logo-site{
+    background-image: url('logoGarage.png');
+  background-repeat:no-repeat;
+  background-size: cover;
+  height:100px;
+  width:100px;
+  border-radius: 100%;
+}
+
+.info-name{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 2em;
+  
+}
+
+.garage-message{
+    border-radius:5px;
+    color: black;
+    background-color: white;
+padding:5px;
+}
+
+.horaire{
+    padding: 5px;
+    background-color: rgb(199, 197, 197);
+    border-radius: 5px;
 }

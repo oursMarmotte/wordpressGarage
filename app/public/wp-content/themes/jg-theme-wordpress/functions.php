@@ -4,6 +4,22 @@
 
 require_once get_template_directory() .'/class-wp-bootstrap-navwalker.php';
 require_once get_template_directory().'/inc/ajax-handlers.php';
+ require_once get_template_directory().'/inc/ajax-handlersTwo.php';
+add_action('after_setup_theme',function(){
+
+    add_image_size('vignette accueil',400,400,true);
+    add_image_size('baniere large',1200,500,true);
+    add_image_size('portrait',400,400,false);
+});
+
+add_filter('image_size_names_choose',function($sizes){
+
+    return array_merge($sizes,array(
+        'vignette-accueil' => __('Vignette Accueil (400x300)', 'textdomain'),
+        'banniere-large'   => __('Bannière Large (1200x500)', 'textdomain'),
+        'portrait'         => __('Portrait (600x800)', 'textdomain'),
+    ));
+});
 
 // Activer certaines fonctionnalités du thème
 function pizza(){
@@ -36,6 +52,28 @@ function my_theme_enqueue_styles(){
         'monscriptAjax',array(
             'ajax_url'=>admin_url('admin-ajax.php'),
             'nonce' =>wp_create_nonce('mon-script_nonce')
+        )
+    );
+
+
+
+
+    wp_enqueue_script(
+        'auto-reservation',
+        get_template_directory_uri().'/js/autoreservation.js',
+        array('jquery'),
+        '1.0.0',
+        true
+
+
+    );
+
+
+     wp_localize_script(
+        'auto-reservation' ,
+        'autoreservationAjax',array(
+            'ajax_url'=>admin_url('admin-ajax.php'),
+            'nonce' =>wp_create_nonce('auto-reservation_nonce')
         )
     );
 }
@@ -177,3 +215,9 @@ echo '</div>';
         dynamic_sidebar('sidebar-pages');
     }
 }
+
+//supprimer le logo Wordpress
+add_action('admin_bar_menu', function($wp_admin_bar){
+    $wp_admin_bar->remove_node('wp-logo');
+}, 999);
+

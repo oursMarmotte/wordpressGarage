@@ -5,8 +5,17 @@ jQuery(document).ready( function($) {
 
 //chargement du formulaire
  $('#fgpSubmit').click(function(){
-     $("#fgpSubmit").html('remplisser leformulaire ci-dessous').css('background-color','green');
+     $("#fgpSubmit").html('remplisser le formulaire ci-dessous').css('background-color','green');
     $('#fgpFormContainer').slideToggle("fast");
+    $('#img-devis').slideUp("fast");
+
+ 
+
+ });
+
+ $('#btn-auto-resa').click(function(){
+$('#btn-auto-resa').html('Veuillez remplir le formulaire ci-dessus').css('background-color','green');
+$('#autoReservationForm').slideToggle("fast");
  });
 
 
@@ -44,12 +53,15 @@ alert(fgpNom);
             if (response.success) {
                 let data = response.data;
                 $('#fgpFormContainer').slideUp("fast");
-                $('#fgpOutput').html("merci monsieur:<b>"+data.nom+"</b>("+data.email+")<br>Votre message"+data.message+"<br>votre demande sera traité dans lesplus bref délais");
+                $('#fgpOutput').html("Merci monsieur:<b>"+data.nom+"</b>("+data.email+")<br<br>votre demande est enregistré "+data.message+"<br>et sera traité dans les plus bref délais");
 $('#fgpOutput').slideToggle('fast');
 
 $("#fgpSubmit").html("Demander un devis").css('background-color','blue');
 setTimeout(function(){
 $('#fgpOutput').slideUp('fast');
+
+         $('#img-devis').slideToggle("fast");
+    
 },6000)
 }else{
     alert("erreur coté serveur");
@@ -63,6 +75,10 @@ console.log("Erreur AJAX",error);
     });
 
 
+$("#nousTrouver").click(function(){
+    $("#nousTrouver").css({'background-color':'black','color':'white'});
+    $("#fgpNousTrouver").slideToggle("fast");
 
+})
 
 });

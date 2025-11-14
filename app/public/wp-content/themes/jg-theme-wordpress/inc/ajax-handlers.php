@@ -146,13 +146,28 @@ function jg_display_messages_page() {
         echo '<div class="notice notice-success"><p>Message marqué comme lu.</p></div>';
     }
     
+//traitement pagination 
+
+$offset = 0;
+
+$limit = isset($_GET['limit']) ? (int) $_GET['limit'] :2;
+    
+     
+if(isset($_GET['action']) && $_GET['action'] =='pagination'){
+    $currentPage = isset($_GET['currentPage']) ? (int)$_GET['currentPage']:1 ;
+$offset = ($currentPage - 1) * $limit;
+}
+
+$pagination = $wpdb->prepare("SELECT * FROM  $table_name ORDER BY  date_envoi DESC LIMIT %d OFFSET %d",$limit ,$offset);
+$messagePaginer = $wpdb->get_results($pagination);
+
     $messages = $wpdb->get_results("SELECT * FROM $table_name ORDER BY date_envoi DESC");
     
     ?>
     <div class="wrap">
         <h1>Messages Clients</h1>
         
-        <?php if (empty($messages)): ?>
+        <?php if (empty($messagePaginer)): ?>
             <p>Aucun message pour le moment.</p>
         <?php else: ?>
             <table class="wp-list-table widefat fixed striped">
@@ -169,7 +184,7 @@ function jg_display_messages_page() {
                     </tr>
                 </thead>
                 <tbody>
-                    <?php foreach ($messages as $msg): ?>
+                    <?php foreach ($messagePaginer as $msg): ?>
                         <tr style="<?php echo $msg->status === 'non_lu' ? 'background-color: #f0f8ff;' : ''; ?>">
                             <td><?php echo esc_html($msg->id); ?></td>
                             <td><?php echo esc_html($msg->nom); ?></td>
@@ -192,6 +207,25 @@ function jg_display_messages_page() {
                     <?php endforeach; ?>
                 </tbody>
             </table>
+
+<div class="pagination"><?php 
+          
+            $count = $wpdb->get_var("SELECT COUNT(*) FROM $table_name");
+            $limit = 5;
+            
+$ttlpages = $count /$limit;
+?> <table>
+<tr>
+<?php
+    for($i=0; $i < $ttlpages; $i++){
+
+        
+echo '<td> <a href="?page=messages-clients&action=pagination&currentPage='.$i.'&limit='.$limit.'&class="button button-small">page'.$i.'</a></td>';
+    }
+          ?>
+          
+        </tr></table></div>
+
         <?php endif; ?>
     </div>
     
