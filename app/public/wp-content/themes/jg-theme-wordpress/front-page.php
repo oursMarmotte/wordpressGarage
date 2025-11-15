@@ -43,7 +43,7 @@
     <div class="col-lg-6 col-md-12 col-sm-12 ">
       <div class="horaire ">
        
-        <h3 class="text-success">Notre adresse</h3>
+        <h3 class="text-horaire">Notre adresse</h3>
         <div class="info-revision">
 <p>Centre commerciale St maximin</p>
 <p>Parking jacque prévert a coté des magazins Carrefour</p>
@@ -57,7 +57,7 @@
          </div>
 
  
-<h3 class="text-success">Nos horaires</h3>
+<h3 class="text-horaire">Nos horaires</h3>
  <div class="info-revision ">
     <p>Nous somme ouvert:</p>
  <p style="color:red;">du lundi au Vendredi : 08h30-12h30 et 14h00-19h30</p>
@@ -65,7 +65,7 @@
  </div>
    
  
-<button class="btn btn-outline-dark mb-10 mt-5" id="nousTrouver">Nous trouver</button>
+<button class="btn btn-outline-light mb-10 mt-5" id="nousTrouver">Nous trouver</button>
     </div>
 
 </div>
@@ -74,7 +74,7 @@
            <div class="tel h-100 p-5 text-bg-dark rounded-3   col-lg-6 col-md-12 col-sm-12">
         
            
-<button  class="btn btn-primary btn-lg" id="fgpSubmit" type="button">Demandez un devis</button>
+<button  class="btn btn-warning btn-sm" id="fgpSubmit" type="button">Demandez un devis</button>
  <div class="response-div alert alert-success mt-5" id="fgpOutput" style="display:none"></div>
 <div class="container mt-5 card d-flex justify-content-center align-items-center">
    

@@ -221,3 +221,11 @@ add_action('admin_bar_menu', function($wp_admin_bar){
     $wp_admin_bar->remove_node('wp-logo');
 }, 999);
 
+//acces uniquement aux utilisateurs connecté
+
+function wp_force_login() {
+    if (!is_user_logged_in()) {
+        auth_redirect();
+    }
+}
+add_action('template_redirect', 'wp_force_login');
