@@ -8,5 +8,5 @@ node_modules
 wordpress/wp-content/cache/*
 wordpress/wp-content/uploads/cache/*
 wordpress/.htaccess.bak
-wordpress/wp-config-sample.php
-wordpress/wp-config.php
+app/public/wp-config-sample.php
+app/public/wp-config.php
