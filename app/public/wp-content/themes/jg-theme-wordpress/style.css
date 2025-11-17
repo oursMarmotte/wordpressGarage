@@ -84,13 +84,17 @@ margin-top: 10%;
     padding:5px;
 }
 
-
+.tel{
+    height:400px;
+}
 .img-devis{
     border-radius: 5px;
     background-image: url('ateliermecanique.png');
-    height:200px;
-    background-repeat:no-repeat;
-    background-size: cover;
+    background-size:cover;
+ width: 100%;
+    height:80%;
+     background-position: center;
+   
 }
 
 .page-accueil{
@@ -156,7 +160,7 @@ margin-top: 10%;
 .garage-message{
     border-radius:5px;
     color: black;
-    width: 70%;
+    width: 100%;
     height: auto;
     background-color: white;
 padding:5px;

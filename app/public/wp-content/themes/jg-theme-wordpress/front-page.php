@@ -5,7 +5,7 @@
 <main class="main-accueil d-flex justify-content-center align-items-center " > <div> 
     <header class="pb-3 mb-4 border-bottom"> 
      </header>
-     <div class=" page-accueil container-xxl p-5 mb-4 bg-body-tertiary rounded-3"> <div class="y-5"> 
+     <div class=" page-accueil container-xxl p-5 mb-2 bg-body-tertiary rounded-3"> <div class="y-5"> 
         <h1 class="titre-accueil">Caroccasions.com <i class="bi bi-telephone-fill"> </i>0800 42 42 47</h1> 
         <div>
                
@@ -13,7 +13,7 @@
  
             </div>
         <div class="cadre-accueil">
-<div class="row">
+<div class="row align-items-md-stretch mt-3">
     <div class="col img-accueil">
    
    
@@ -21,7 +21,7 @@
 <div class="prestation-accueil  col-lg-7 col-md-12 col-sm-12 p-5">
     
          <h4 class="text-light">Révision, réparations mécaniques toutes marques à prix attractif.</h4>
-        <div class="garage-message">
+        <div class="garage-message mt-5">
        
 
  <p>Notre garage vous garantie une prise en charge et un entretien complet de votre véhicule dans les meilleurs délais</p>
@@ -39,7 +39,7 @@
         
 
 
-<div class="row align-items-md-stretch mt-5">
+<div class="row align-items-md-stretch mt-3">
     <div class="col-lg-6 col-md-12 col-sm-12 ">
       <div class="horaire ">
        
@@ -71,7 +71,7 @@
 </div>
 
 
-           <div class="tel h-100 p-5 text-bg-dark rounded-3   col-lg-6 col-md-12 col-sm-12">
+           <div class="tel p-5 text-bg-dark rounded-3 mt-5   col-lg-6 col-md-12 col-sm-12">
         
            
 <button  class="btn btn-warning btn-sm" id="fgpSubmit" type="button">Demandez un devis</button>
@@ -108,7 +108,7 @@
          </div>
         
     </div>
-     <div class="img-devis"id="img-devis">
+     <div class="img-devis"id="img-devis" >
             
          </div>
 </div>
