@@ -5,7 +5,7 @@ jQuery(document).ready( function($) {
 
 //chargement du formulaire
  $('#fgpSubmit').click(function(){
-     $("#fgpSubmit").html('remplisser le formulaire ci-dessous').css('background-color','green');
+     $("#fgpSubmit").html('Veuillez remplir le formulaire ci-dessous').css({'background-color':'green','color':'white'});
     $('#fgpFormContainer').slideToggle("fast");
     $('#img-devis').slideUp("fast");
 

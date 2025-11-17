@@ -156,6 +156,8 @@ margin-top: 10%;
 .garage-message{
     border-radius:5px;
     color: black;
+    width: 70%;
+    height: auto;
     background-color: white;
 padding:5px;
 }
@@ -170,4 +172,9 @@ padding:5px;
 
     color: white;
 
+}
+
+
+.info-prestation.atelier{
+    color:white;
 }

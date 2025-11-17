@@ -19,7 +19,7 @@
    
 </div>
 <div class="prestation-accueil  col-lg-7 col-md-12 col-sm-12 p-5">
-    <div class="horaire-acceuil p-5  rounded-3 mb-5">
+    
          <h4 class="text-light">Révision, réparations mécaniques toutes marques à prix attractif.</h4>
         <div class="garage-message">
        
@@ -32,7 +32,7 @@
 
  
    
-    </div>
+    
    
 </div>
 </div>
@@ -132,15 +132,15 @@
             <div class="col-md-6"> 
             <div class="h-100 p-5 text-bg-dark rounded-3"><div>
                 <h2 class="text-light">Nos prestations atelier</h2></div>
-                <div class="info-revision card p-5">
+                <div class="info-prestation.atelier">
                   <p> ✅ Les systèmes d’embrayage</p>
           <p>✅ L’échappement </p>
            <p>✅ Les freins et amortisseurs</p>
          <p> ✅ La vidange et la révision</p>
           <p>✅ La climatisation et la batterie</p>
            <p> ✅ ✅ Le diagnostic électronique</p>
-                </div>
-              
+                
+              </div>
                
             <a href=<?php echo $_SERVER['SERVER_NAME'] ;?>"/prestations-atelier/" class="btn btn-outline-light mt-5">Voir nos prestations</a> </div> 
         </div> 

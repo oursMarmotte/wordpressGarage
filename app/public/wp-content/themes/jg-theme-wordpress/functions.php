@@ -229,3 +229,103 @@ function wp_force_login() {
     }
 }
 add_action('template_redirect', 'wp_force_login');
+
+//css loginForm
+function custom_login_css(){
+$fondimage= esc_url(get_stylesheet_directory_uri().'/moteur.jpg');
+$logo = esc_url(get_stylesheet_directory_uri().'/logoGarage.png');
+
+echo "
+<div class='custom-login-title'><h1>caroccasions.com</h1></div>
+    <style>
+
+
+    .custom-login-title{
+    background-color:transparent;
+    text-align:center;
+    font-size:24px;
+    font-weight:700;
+    color:white;
+    height:200px;
+    width:500px;
+    margin-bottom:10px;
+    }
+        body.login {
+          
+            background-image: url('{$fondimage}');
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+
+        #login h1 a{
+background-image: url('{$logo}');
+border-radius:360px;
+
+}
+
+
+
+
+#loginform {
+            background: #ffffff;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 0 25px rgba(0,0,0,0.15);
+            
+        }
+
+        #loginform label {
+            font-weight: 600;
+            color: #333;
+        }
+
+        #loginform .input {
+            border-radius: 8px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        #wp-submit {
+            background: #0073aa;
+            border-radius: 5px ;
+            padding: 10px 0 ;
+            font-size: 16px;
+            width:100px;
+        }
+    </style>
+    ";
+   
+}
+add_action('login_enqueue_scripts','custom_login_css');
+
+
+add_filter('login_headertext', function() {
+    return get_bloginfo('name');
+});
+
+
+add_filter('login_headerurl', function() {
+    return home_url();
+});
+
+
+function custom_login_labels($translated_text,$text,$domain){
+
+    switch($text){
+  case 'Username or Email Address':
+        $translated_text= "Identifiant";
+        break;
+
+case 'Password':
+    $translated_text="Mot de passe";
+    break;
+    case 'Remember Me':
+        $translated_text="Se souvenir de moi";
+        case'Login':
+            $translated_text="Connexion";
+    }
+
+  return $translated_text;
+}
+
+add_filter('gettext','custom_login_labels',20,3);
