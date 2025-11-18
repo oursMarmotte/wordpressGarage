@@ -6,7 +6,7 @@
     <header class="pb-3 mb-4 border-bottom"> 
      </header>
      <div class=" page-accueil container-xxl p-5 mb-2 bg-body-tertiary rounded-3"> <div class="y-5"> 
-        <h1 class="titre-accueil">Caroccasions.com <i class="bi bi-telephone-fill"> </i>0800 42 42 47</h1> 
+        <h1 class="titre-accueil"><i class="bi bi-telephone-fill"> </i>0800 42 42 47</h1> 
         <div>
                
 
