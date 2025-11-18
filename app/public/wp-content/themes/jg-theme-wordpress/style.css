@@ -86,11 +86,14 @@ margin-top: 10%;
 
 .tel{
     height:400px;
+    
 }
 .img-devis{
-    border-radius: 5px;
+    
+    border-radius: 10px;
     background-image: url('ateliermecanique.png');
     background-size:cover;
+    padding: 5%;
  width: 100%;
     height:80%;
      background-position: center;

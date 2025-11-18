@@ -2,7 +2,7 @@
     jQuery(document).ready(function($){
 $("#autoSend").click(function(e){
         e.preventDefault();
-       alert("button autoreservation clicked");
+       
        
 
            let fgpNom = $("#autoNom").val();

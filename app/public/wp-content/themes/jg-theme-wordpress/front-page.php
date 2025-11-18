@@ -74,8 +74,13 @@
            <div class="tel p-5 text-bg-dark rounded-3 mt-5   col-lg-6 col-md-12 col-sm-12">
         
            
-<button  class="btn btn-warning btn-sm" id="fgpSubmit" type="button">Demandez un devis</button>
- <div class="response-div alert alert-success mt-5" id="fgpOutput" style="display:none"></div>
+<button  class="btn btn-warning btn-sm mb-5" id="fgpSubmit" type="button">Demandez un devis</button>
+ <div class=" container img-devis"id="img-devis" >
+            
+         </div>
+ <div class="response-div alert alert-success mt-5" id="fgpOutput" style="display:none">
+ 
+ </div>
 <div class="container mt-5 card d-flex justify-content-center align-items-center">
    
 
@@ -108,9 +113,7 @@
          </div>
         
     </div>
-     <div class="img-devis"id="img-devis" >
-            
-         </div>
+     
 </div>
 
 

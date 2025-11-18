@@ -23,7 +23,7 @@ $('#autoReservationForm').slideToggle("fast");
 //traitement formulaire
     $("#fgpSend").click(function(e){
         e.preventDefault();
-        alert("button clicked");
+        
        
 
            let fgpNom = $("#fgpNom").val();
@@ -31,7 +31,7 @@ $('#autoReservationForm').slideToggle("fast");
            let fgpEmail = $("#fgpEmail").val();
            let fgpMessage =$("#fgpMessage").val();
            let fgpTel =$("#fgpTelephone").val();
-alert(fgpNom);
+
     
 
 
@@ -53,7 +53,7 @@ alert(fgpNom);
             if (response.success) {
                 let data = response.data;
                 $('#fgpFormContainer').slideUp("fast");
-                $('#fgpOutput').html("Merci monsieur:<b>"+data.nom+"</b>("+data.email+")<br<br>votre demande est enregistré "+data.message+"<br>et sera traité dans les plus bref délais");
+                $('#fgpOutput').html("Merci monsieur:<b>"+data.nom+"</b>("+data.email+")<br<br>votre demande est enregistré sous la référence:<strong>"+data.message+"</strong><br><br>Votre demande sera traité dans les plus bref délais");
 $('#fgpOutput').slideToggle('fast');
 
 $("#fgpSubmit").html("Demander un devis").css('background-color','blue');
